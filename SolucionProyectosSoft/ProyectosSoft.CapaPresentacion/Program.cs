@@ -16,7 +16,7 @@ namespace ProyectosSoft.CapaPresentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormRegistrarProyecto());
+            Application.Run(new FormPrincipal());
         }
     }
 }
