@@ -31,9 +31,9 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.fechaFintxt = new System.Windows.Forms.TextBox();
+            this.fechaIniciotxt = new System.Windows.Forms.TextBox();
+            this.fechatxt = new System.Windows.Forms.TextBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -67,26 +67,26 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox3
+            // fechaFintxt
             // 
-            this.textBox3.Location = new System.Drawing.Point(300, 78);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 12;
+            this.fechaFintxt.Location = new System.Drawing.Point(300, 78);
+            this.fechaFintxt.Name = "fechaFintxt";
+            this.fechaFintxt.Size = new System.Drawing.Size(100, 20);
+            this.fechaFintxt.TabIndex = 12;
             // 
-            // textBox2
+            // fechaIniciotxt
             // 
-            this.textBox2.Location = new System.Drawing.Point(165, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 11;
+            this.fechaIniciotxt.Location = new System.Drawing.Point(165, 76);
+            this.fechaIniciotxt.Name = "fechaIniciotxt";
+            this.fechaIniciotxt.Size = new System.Drawing.Size(100, 20);
+            this.fechaIniciotxt.TabIndex = 11;
             // 
-            // textBox1
+            // fechatxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(165, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 10;
+            this.fechatxt.Location = new System.Drawing.Point(165, 32);
+            this.fechatxt.Name = "fechatxt";
+            this.fechatxt.Size = new System.Drawing.Size(100, 20);
+            this.fechatxt.TabIndex = 10;
             // 
             // radioButton2
             // 
@@ -109,6 +109,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "FECHA";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // FormReporteGanancias
             // 
@@ -118,9 +119,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.fechaFintxt);
+            this.Controls.Add(this.fechaIniciotxt);
+            this.Controls.Add(this.fechatxt);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Name = "FormReporteGanancias";
@@ -136,9 +137,9 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox fechaFintxt;
+        private System.Windows.Forms.TextBox fechaIniciotxt;
+        private System.Windows.Forms.TextBox fechatxt;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
     }
