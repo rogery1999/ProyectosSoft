@@ -29,5 +29,11 @@ namespace ProyectosSoft.CapaPresentacion
             formReportesProyectos.ShowDialog();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormRegistrarTrabajador formRegistrarTrabajador = new FormRegistrarTrabajador();
+            formRegistrarTrabajador.ShowDialog();
+        }
     }
 }

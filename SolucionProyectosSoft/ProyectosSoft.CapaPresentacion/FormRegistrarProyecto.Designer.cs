@@ -49,13 +49,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbZonaConstruccion
             // 
             this.cmbZonaConstruccion.FormattingEnabled = true;
             this.cmbZonaConstruccion.Location = new System.Drawing.Point(143, 115);
-            this.cmbZonaConstruccion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbZonaConstruccion.Margin = new System.Windows.Forms.Padding(2);
             this.cmbZonaConstruccion.Name = "cmbZonaConstruccion";
             this.cmbZonaConstruccion.Size = new System.Drawing.Size(142, 21);
             this.cmbZonaConstruccion.TabIndex = 64;
@@ -63,7 +64,7 @@
             // txtCantidadPeones
             // 
             this.txtCantidadPeones.Location = new System.Drawing.Point(143, 375);
-            this.txtCantidadPeones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCantidadPeones.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidadPeones.Name = "txtCantidadPeones";
             this.txtCantidadPeones.Size = new System.Drawing.Size(142, 20);
             this.txtCantidadPeones.TabIndex = 63;
@@ -71,7 +72,7 @@
             // txtCantidadProfesionales
             // 
             this.txtCantidadProfesionales.Location = new System.Drawing.Point(143, 338);
-            this.txtCantidadProfesionales.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCantidadProfesionales.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidadProfesionales.Name = "txtCantidadProfesionales";
             this.txtCantidadProfesionales.Size = new System.Drawing.Size(142, 20);
             this.txtCantidadProfesionales.TabIndex = 62;
@@ -79,7 +80,7 @@
             // txtDuracion
             // 
             this.txtDuracion.Location = new System.Drawing.Point(143, 295);
-            this.txtDuracion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDuracion.Margin = new System.Windows.Forms.Padding(2);
             this.txtDuracion.Name = "txtDuracion";
             this.txtDuracion.Size = new System.Drawing.Size(142, 20);
             this.txtDuracion.TabIndex = 61;
@@ -87,7 +88,7 @@
             // txtPresupuestoPeones
             // 
             this.txtPresupuestoPeones.Location = new System.Drawing.Point(143, 260);
-            this.txtPresupuestoPeones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPresupuestoPeones.Margin = new System.Windows.Forms.Padding(2);
             this.txtPresupuestoPeones.Name = "txtPresupuestoPeones";
             this.txtPresupuestoPeones.Size = new System.Drawing.Size(142, 20);
             this.txtPresupuestoPeones.TabIndex = 60;
@@ -95,7 +96,7 @@
             // txtPresupuestoProfesionales
             // 
             this.txtPresupuestoProfesionales.Location = new System.Drawing.Point(162, 224);
-            this.txtPresupuestoProfesionales.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPresupuestoProfesionales.Margin = new System.Windows.Forms.Padding(2);
             this.txtPresupuestoProfesionales.Name = "txtPresupuestoProfesionales";
             this.txtPresupuestoProfesionales.Size = new System.Drawing.Size(142, 20);
             this.txtPresupuestoProfesionales.TabIndex = 59;
@@ -103,7 +104,7 @@
             // txtPresupuestoMaterial
             // 
             this.txtPresupuestoMaterial.Location = new System.Drawing.Point(143, 187);
-            this.txtPresupuestoMaterial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPresupuestoMaterial.Margin = new System.Windows.Forms.Padding(2);
             this.txtPresupuestoMaterial.Name = "txtPresupuestoMaterial";
             this.txtPresupuestoMaterial.Size = new System.Drawing.Size(142, 20);
             this.txtPresupuestoMaterial.TabIndex = 58;
@@ -111,7 +112,7 @@
             // txtPresupuestoGeneral
             // 
             this.txtPresupuestoGeneral.Location = new System.Drawing.Point(143, 154);
-            this.txtPresupuestoGeneral.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPresupuestoGeneral.Margin = new System.Windows.Forms.Padding(2);
             this.txtPresupuestoGeneral.Name = "txtPresupuestoGeneral";
             this.txtPresupuestoGeneral.Size = new System.Drawing.Size(142, 20);
             this.txtPresupuestoGeneral.TabIndex = 57;
@@ -119,7 +120,7 @@
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(80, 82);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 20);
             this.txtNombre.TabIndex = 56;
@@ -127,8 +128,8 @@
             // 
             // btnEliminarDatos
             // 
-            this.btnEliminarDatos.Location = new System.Drawing.Point(294, 419);
-            this.btnEliminarDatos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminarDatos.Location = new System.Drawing.Point(228, 419);
+            this.btnEliminarDatos.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminarDatos.Name = "btnEliminarDatos";
             this.btnEliminarDatos.Size = new System.Drawing.Size(76, 34);
             this.btnEliminarDatos.TabIndex = 55;
@@ -139,7 +140,7 @@
             // btnRegistrarContrato
             // 
             this.btnRegistrarContrato.Location = new System.Drawing.Point(118, 419);
-            this.btnRegistrarContrato.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistrarContrato.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrarContrato.Name = "btnRegistrarContrato";
             this.btnRegistrarContrato.Size = new System.Drawing.Size(65, 34);
             this.btnRegistrarContrato.TabIndex = 54;
@@ -250,11 +251,22 @@
             this.label1.Text = "Registrar Proyecto";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(333, 419);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(81, 34);
+            this.button2.TabIndex = 65;
+            this.button2.Text = "CANCELAR";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FormRegistrarProyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 474);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.cmbZonaConstruccion);
             this.Controls.Add(this.txtCantidadPeones);
             this.Controls.Add(this.txtCantidadProfesionales);
@@ -276,7 +288,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormRegistrarProyecto";
             this.Text = "Registrar Proyecto";
             this.Load += new System.EventHandler(this.FormRegistrarProyecto_Load);
@@ -308,6 +320,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

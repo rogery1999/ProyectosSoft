@@ -167,7 +167,7 @@ namespace ProyectosSoft.CapaPresentacion
                     RegistrarProyectoServicio registrarProyectoServicio = new RegistrarProyectoServicio();
                     registrarProyectoServicio.RegistrarContratoProyecto(contratoProyecto);
                     eliminarDatos();
-                    MessageBox.Show("El contrato se guardo exitasamente", "Notificacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("El contrato se guardo exitosamente", "Notificacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception excepcion)
                 {
@@ -211,6 +211,11 @@ namespace ProyectosSoft.CapaPresentacion
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

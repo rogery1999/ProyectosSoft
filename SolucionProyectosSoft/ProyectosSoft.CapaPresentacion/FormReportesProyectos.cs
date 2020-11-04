@@ -44,5 +44,10 @@ namespace ProyectosSoft.CapaPresentacion
             FormReporteGanancias formReporteGanancias = new FormReporteGanancias();
             formReporteGanancias.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

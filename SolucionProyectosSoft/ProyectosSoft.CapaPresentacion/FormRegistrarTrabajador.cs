@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectosSoft.CapaPresentacion
 {
-    public partial class FormReportePresupuestos : Form
+    public partial class FormRegistrarTrabajador : Form
     {
-        public FormReportePresupuestos()
+        public FormRegistrarTrabajador()
         {
             InitializeComponent();
         }
